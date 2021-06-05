@@ -40,3 +40,16 @@
 2. template제작
 3. views제작
 4. views와 url 연결
+
+
+
+<h4>템플릿 문법</h4>
+
+```{% for ~~ %}
+{% for ~~~ in wordDict %}
+...
+{% endfor %}
+```
+
+변수명 사용시 중괄호 2개 : {{변수명}}
+
